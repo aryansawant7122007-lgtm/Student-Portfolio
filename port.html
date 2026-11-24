@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Sawant - Portfolio</title>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://res.cloudinary.com">
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    
+    <header class="top-bar">
+        <div class="container flex-between">
+            <a href="#home" class="brand-name">Aryan Sawant</a>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero-box">
+        <div class="container flex-between">
+            <div class="hero-left">
+                <h1>Welcome to My Portfolio<br><span class="highlight">Aryan Sawant</span></h1>
+                <p>First-year B.Tech Engineering student interested in web design and programming.</p>
+                <a href="#contact" class="blue-btn">Contact Me</a>
+            </div>
+            <div class="hero-right">
+                <img src="https://res.cloudinary.com/jdqsjdib/image/upload/v1795457199/pfp.jpg" alt="Profile Picture" class="circle-img" decoding="async" fetchpriority="high">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="white-box">
+        <div class="container flex-between">
+            <div class="about-left">
+                <h2 class="title">About Me</h2>
+                <div class="underline"></div>
+                <p>
+                    My name is Aryan Sawant. I am a first-year B.Tech Computer Science student at Alard University, Pune. I enjoy creating clean web pages and learning basic programming.
+                </p>
+                <p>
+                    My interest is in software development and AI, and my goal is to become a good software engineer.
+                </p>
+            </div>
+            <div class="about-right">
+                <img src="https://res.cloudinary.com/jdqsjdib/image/upload/v1795459975/rect_img.jpg" alt="About Image" class="rect-img" loading="lazy" decoding="async">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills" class="light-box">
+        <div class="container">
+            <h2 class="title">Skills</h2>
+            <div class="underline"></div>
+
+            <div class="skills-row">
+                <div class="skill-box">
+                    <p class="skill-symbol"><i class="bi bi-filetype-html"></i></p>
+                    <h3>HTML</h3>
+                </div>
+
+                <div class="skill-box">
+                    <p class="skill-symbol"><i class="bi bi-css"></i></p>
+                    <h3>CSS</h3>
+                </div>
+
+                <div class="skill-box">
+                    <p class="skill-symbol"><i class="bi bi-filetype-py"></i></p>
+                    <h3>Python</h3>
+                </div>
+
+                <div class="skill-box">
+                    <p class="skill-symbol"><i class="bi bi-c-circle"></i></p>
+                    <h3>C Programming</h3>
+                </div>
+
+                <div class="skill-box">
+                    <p class="skill-symbol"><i class="bi bi-people-fill"></i></p>
+                    <h3>Communication</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="white-box">
+        <div class="container">
+            <h2 class="title">Projects</h2>
+            <div class="underline"></div>
+
+            <div class="projects-row">
+                <div class="project-box">
+                    <img src="https://res.cloudinary.com/jdqsjdib/image/upload/v1795460768/soft.jpg" alt="Project 1" class="project-img" loading="lazy" decoding="async">
+                    <div class="project-text">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A simple and responsive portfolio website created using basic HTML and CSS.</p>
+                        <a href="#home" class="small-btn">View Project</a>
+                    </div>
+                </div>
+
+               
+                <div class="project-box">
+                    <img src="https://res.cloudinary.com/jdqsjdib/image/upload/v1795460440/ard.jpg" alt="Project 2" class="project-img" loading="lazy" decoding="async">
+                    <div class="project-text">
+                        <h3>Arduino Controlled Home System</h3>
+                        <p>A system which improves safety of home. Which help to secure home.</p>
+                        <a href="#contact" class="small-btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="light-box">
+        <div class="container flex-start">
+            <div class="contact-left">
+                <h2 class="title">Contact</h2>
+                <div class="underline"></div>
+                <p><span style="font-weight: bold;">Name:</span> Aryan Sawant</p>
+                <p><span style="font-weight: bold;">Email:</span> aryansawant@gmail.com</p>
+                <p><span style="font-weight:bold;">Location:</span> Pune, Maharashtra</p>
+            </div>
+
+            <div class="contact-right">
+                <form action="#" method="post">
+                    <div class="two-inputs">
+                        <input type="text" name="fullname" placeholder="Full Name" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" rows="4" placeholder="Message" required></textarea>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bottom-bar">
+        <div class="container flex-between">
+            <p>&copy; 2026 Aryan Sawant. All rights reserved.</p>
+            <div class="social">
+                <a href="https://www.linkedin.com/" target="_blank"> <i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
+                <a href="https://instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
